@@ -10,7 +10,7 @@ Repo for Galvanize application. [Project Euler #22](https://projecteuler.net/pro
 
 ## Solution Walkthrough
 
-1. Using Node's asynchronous readStream, I read the names.txt file into a buffer. 
+1. Using Node's asynchronous readFile, I read the names.txt file into a buffer. 
 2. I convert the buffer to a string, remove the double quotes, and split by the commas in the file.
 3. The list is sorted using JavaScript's native sort.
 4. The item's alphabetical position (`sortVal`) is calculated by the position + 1 to give a positive value.
