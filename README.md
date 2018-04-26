@@ -14,7 +14,7 @@ Repo for Galvanize application. [Project Euler #22](https://projecteuler.net/pro
 2. I convert the buffer to a string, remove the double quotes, and split by the commas in the file.
 3. The list is sorted using JavaScript's native sort.
 4. The item's alphabetical position (`sortVal`) is calculated by the position + 1 to give a positive value.
-5. The item's alphabetical value (`alphaVal`) is calculated by summing the ASCII code minus 65 to give it a positive value
+5. The item's alphabetical value (`alphaVal`) is calculated by summing the ASCII code minus 64 to give it a positive value
 6. The value of the word is calculated by multiplying `sortVal` and `alphaVal`.
 7. Then the entire value of the word is added to the sum (`total`)
 8. Once all words are iterated through, the sum total is logged to the console.
